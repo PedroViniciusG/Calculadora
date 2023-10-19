@@ -1,0 +1,55 @@
+body {
+    background: #b8b8b8;
+}
+
+div#caixa {
+    background-color: rgb(125, 125, 125);
+    border: 1px solid blue;
+    padding: 30px;
+    width: 512px;
+    margin: 56px auto 0px;
+}
+
+
+h1#titulo01 {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    font: normal 40px arial;
+    font-weight: bold;
+    text-align: center;
+    
+}
+ul {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    border: 1px solid green;
+}
+ul li button#adicao {
+    font: normal 30px arial;
+    width: 50px;
+}
+ul li button#subtracao {
+    font: normal 30px arial;
+    width: 50px;
+}
+ul input#n1{
+    border: 1px solid orange;
+    font: normal 25px arial;
+    width: 70px;
+}
+ul input#n2{
+    border: 1px solid orange;
+    font: normal 25px arial;
+    width: 70px;
+    margin-right: 40px;
+
+}
+div#resultado {
+    border: 1px solid palevioletred;
+    font: normal 40px arial;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
