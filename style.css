@@ -4,52 +4,70 @@ body {
 
 div#caixa {
     background-color: rgb(125, 125, 125);
-    border: 1px solid blue;
     padding: 30px;
     width: 512px;
     margin: 56px auto 0px;
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 10px;
 }
 
+div#tituloCalc {
+    justify-content: center;
+    display: flex;
+}
 
 h1#titulo01 {
     background-color: rgb(5, 5, 5);
     color: white;
-    font: normal 40px arial;
+    font: normal 20px arial;
     font-weight: bold;
     text-align: center;
-    
+    width: 180px;
+    border-radius: 10px;
 }
 ul {
     justify-content: center;
     list-style: none;
     display: flex;
     gap: 10px;
-    border: 1px solid green;
 }
 ul li button#adicao {
+    border: 1px;
     font: normal 30px arial;
     width: 50px;
+    border-radius: 10px;
 }
 ul li button#subtracao {
+    border: 1px;
     font: normal 30px arial;
     width: 50px;
+    border-radius: 10px;
 }
-ul input#n1{
-    border: 1px solid orange;
+ul input#n1 {
+    border: 1px;
     font: normal 25px arial;
     width: 70px;
+    border-radius: 10px;
 }
-ul input#n2{
-    border: 1px solid orange;
+ul input#n2 {
+    border: 1px;
     font: normal 25px arial;
     width: 70px;
     margin-right: 40px;
-
+    border-radius: 10px;
 }
-div#resultado {
-    border: 1px solid palevioletred;
+div#caixaResul {
+    display: flex;
+    justify-content: center;
+}
+
+h1#resultado {
     font: normal 40px arial;
     font-weight: bold;
     text-align: center;
     color: white;
+    border: 2px solid rgba(13, 17, 14, 0.249);
+    border-radius: 10px;
+    background-color: rgba(2, 108, 31, 0.249);
+    width: 330px;
 }
