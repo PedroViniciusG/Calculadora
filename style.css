@@ -1,5 +1,7 @@
 body {
     background: #b8b8b8;
+    border: 1px solid red;
+    height: auto;
 }
 
 div#caixa {
@@ -9,11 +11,13 @@ div#caixa {
     margin: 56px auto 0px;
     border: 2px solid rgb(60, 60, 60);
     border-radius: 10px;
+    
 }
 
 div#tituloCalc {
     justify-content: center;
     display: flex;
+    border: 1px solid red;
 }
 
 h1#titulo01 {
@@ -24,39 +28,47 @@ h1#titulo01 {
     text-align: center;
     width: 180px;
     border-radius: 10px;
+    border: 1px solid red;
 }
 ul {
     justify-content: center;
     list-style: none;
     display: flex;
     gap: 10px;
+    position: relative;
+    border: 1px solid red;
 }
-ul li button#adicao {
+ul li button#operadorSelecionado {
     border: 1px;
     font: normal 30px arial;
-    width: 50px;
+    color: white;
+    width: 35px;
     border-radius: 10px;
-}
-ul li button#subtracao {
-    border: 1px;
-    font: normal 30px arial;
-    width: 50px;
-    border-radius: 10px;
+    height: 34px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b8b8b800;
+    border: 1px solid red;
 }
 ul input#n1 {
+    text-align: center;
     border: 1px;
     font: normal 25px arial;
     width: 70px;
     border-radius: 10px;
+    border: 1px solid red;
 }
 ul input#n2 {
+    text-align: center;
     border: 1px;
     font: normal 25px arial;
     width: 70px;
     margin-right: 40px;
     border-radius: 10px;
+    border: 1px solid red;
 }
 div#caixaResul {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
 }
@@ -70,4 +82,25 @@ h1#resultado {
     border-radius: 10px;
     background-color: rgba(2, 108, 31, 0.249);
     width: 330px;
+}
+
+div#operadores {
+    border: 1px solid red;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+div button#adicao {
+    border: 1px;
+    font: normal 30px arial;
+    width: 50px;
+    border-radius: 10px;
+}
+div button#subtracao {
+    border: 1px;
+    font: normal 30px arial;
+    width: 50px;
+    border-radius: 10px;
 }

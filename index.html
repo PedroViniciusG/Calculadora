@@ -18,13 +18,15 @@
             <ul>
                 <input type="number" name="n1" id="n1" />
                 <li id="01">
-                    <button id="adicao" onclick="soma()">+</button>
-                </li>
-                <li id="01">
-                    <button id="subtracao" onclick="subtracao()">-</button>
+                    <button id="operadorSelecionado" onclick="opeselec()"></button>
                 </li>
                 <input type="number" name="n2" id="n2" />
             </ul>
+            <div id="operadores">
+                <button id="subtracao" onclick="subtracao()">-</button>
+                <button id="adicao" onclick="soma()">+</button>
+            </div>
+            <p id="opeSelect">.</p>
         </div>
     </body>
 </html>
