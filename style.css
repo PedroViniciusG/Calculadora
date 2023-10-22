@@ -1,6 +1,5 @@
 body {
     background: #b8b8b8;
-    border: 1px solid red;
     height: auto;
 }
 
@@ -17,7 +16,7 @@ div#caixa {
 div#tituloCalc {
     justify-content: center;
     display: flex;
-    border: 1px solid red;
+    
 }
 
 h1#titulo01 {
@@ -28,7 +27,7 @@ h1#titulo01 {
     text-align: center;
     width: 180px;
     border-radius: 10px;
-    border: 1px solid red;
+    
 }
 ul {
     justify-content: center;
@@ -36,7 +35,7 @@ ul {
     display: flex;
     gap: 10px;
     position: relative;
-    border: 1px solid red;
+
 }
 ul li button#operadorSelecionado {
     border: 1px;
@@ -44,31 +43,32 @@ ul li button#operadorSelecionado {
     color: white;
     width: 35px;
     border-radius: 10px;
-    height: 34px;
+    height: 31px;
     text-align: center;
     font-weight: bold;
     background-color: #b8b8b800;
-    border: 1px solid red;
+    
 }
 ul input#n1 {
+    height: 30px;
     text-align: center;
     border: 1px;
     font: normal 25px arial;
     width: 70px;
     border-radius: 10px;
-    border: 1px solid red;
+
 }
 ul input#n2 {
+    height: 30px;
     text-align: center;
     border: 1px;
     font: normal 25px arial;
     width: 70px;
     margin-right: 40px;
     border-radius: 10px;
-    border: 1px solid red;
+    
 }
 div#caixaResul {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
 }
@@ -85,7 +85,6 @@ h1#resultado {
 }
 
 div#operadores {
-    border: 1px solid red;
     justify-content: center;
     list-style: none;
     display: flex;
@@ -99,6 +98,18 @@ div button#adicao {
     border-radius: 10px;
 }
 div button#subtracao {
+    border: 1px;
+    font: normal 30px arial;
+    width: 50px;
+    border-radius: 10px;
+}
+div button#multiplicacao {
+    border: 1px;
+    font: normal 30px arial;
+    width: 50px;
+    border-radius: 10px;
+}
+div button#divisao {
     border: 1px;
     font: normal 30px arial;
     width: 50px;
