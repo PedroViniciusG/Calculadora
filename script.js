@@ -7,7 +7,7 @@ function soma() {
     var v2 = Number(num2.value);
     var valtolt = v1 + v2;
     res.innerHTML = valtolt.toFixed(5);
-    opecSelec.innerHTML.vari.toFixed(5.3)= "&#x2b;";
+    opecSelec.innerHTML = "&#x2b;";
 }
 
 function subtracao() {
